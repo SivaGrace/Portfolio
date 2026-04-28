@@ -1,2 +1,15 @@
 # Portfolio
-My portfolio website built using HTML, CSS, and JavaScript
+This is my personal portfolio website.
+
+## 🔗 Live Demo
+https://your-site.netlify.app
+
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## 📌 Features
+- Responsive design
+- Projects showcase
+- Contact section
