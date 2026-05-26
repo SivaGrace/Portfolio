@@ -814,13 +814,14 @@
     </ul>
   </nav>
 
-  <section id="hero">
+ <section id="hero">
     <div class="hero-bg"></div>
     <div class="hero-grid"></div>
-    <div class="hero-content">
-      <div class="hero-tag">Available for opportunities</div>
-      <h1 class="hero-name">Sivananthan<br></h1>
-      <p class="hero-role">Full Stack Developer</p>
+    <div class="hero-content" style="display:flex; align-items:center; justify-content:space-between; gap:60px; width:100%; position:relative; z-index:1;">
+      <div style="flex:1; max-width:600px;">
+        <div class="hero-tag">Available for opportunities</div>
+        <h1 class="hero-name">Sivananthan<br></h1>
+	      <p class="hero-role">Full Stack Developer</p>
       <p class="hero-desc">
         M.Sc Computer Science graduate passionate about building scalable web applications.
         Specializing in MERN Stack development with a strong foundation in Java and REST APIs.
@@ -828,7 +829,14 @@
       <div class="hero-btns">
         <a href="#project" class="btn-primary">View Project →</a>
         <a href="#contact" class="btn-secondary">Get in Touch</a>
+     </div>
       </div>
+      <!-- Photo -->
+      <div style="flex-shrink:0; display:flex; flex-direction:column; align-items:center; gap:16px;">
+        <div style="width:280px; height:280px; border-radius:50%; padding:4px; background:linear-gradient(135deg,#1d4ed8,#0ea5e9); box-shadow:0 20px 60px rgba(29,78,216,0.2);">
+          <img src="photo.png" alt="Sivananthan P" style="width:100%; height:100%; border-radius:50%; object-fit:cover; object-position:top; display:block;">
+        </div>
+              </div>
     </div>
     <div class="hero-stats">
       <div class="stat">
